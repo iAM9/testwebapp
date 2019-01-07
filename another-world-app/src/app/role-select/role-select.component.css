@@ -20,7 +20,12 @@
 
 
 .centre-text{
-  position: relative;
+  top: 90%;
+  text-align: center;
+}
+
+.mat-display-1{
+  margin: 5%;
   text-align: center;
 }
 

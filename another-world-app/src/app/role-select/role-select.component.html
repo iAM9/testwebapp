@@ -1,16 +1,18 @@
+
+
 <div class="grid-container">
-  <div class="centre-text">
-    <h1 class="mat-display-1">Select your role</h1>
-  </div>
+    <div>
+        <h1 class="mat-display-1">Select your role</h1>
+      </div>
   <mat-grid-list cols="3" rowHeight="300px">
     <mat-grid-tile>
-      <button class="dashboard-card" mat-stroked-button color="basic">
+      <button routerLink="/admin" routerLinkActive="active" class="dashboard-card" mat-stroked-button color="basic">
         <i class="material-icons md-48">person</i>
         <p class="mat-h2">Administrator</p>
       </button>
     </mat-grid-tile>
     <mat-grid-tile>
-      <button class="dashboard-card" mat-stroked-button color="accent">
+      <button routerLink="/project-list" routerLinkActive="active" class="dashboard-card" mat-stroked-button color="accent">
         <i class="material-icons md-48">computer</i>
         <p class="mat-h2">Developer</p>
       </button>
@@ -24,7 +26,7 @@
   </mat-grid-list>
 
 
-
+  
 
 
   <!--
